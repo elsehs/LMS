@@ -26,3 +26,11 @@ A console-based Learning Management System built in **C#** applying Object-Orien
 1. Clone the repository:
    ```bash
    git clone [https://github.com/elsehs/LMS.git](https://github.com/elsehs/LMS.git)
+2. Open the solution/project in Visual Studio.
+
+3. Build and run the console application (Ctrl + F5 or F5).
+
+Notes
+Data is currently stored in memory during runtime (InMemoryDatabase), so records reset when the application closes.
+
+Course enrollment is managed from the student side, while course ownership and creation belong to the instructor.
