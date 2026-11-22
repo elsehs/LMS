@@ -61,13 +61,13 @@ namespace CALearningMangementSystem.UI
         private static void CreateCourse(Instructor instructor)
         {
             string id = Guid.NewGuid().ToString();
-            Console.WriteLine("Enter course title: ");
+            Console.Write("Enter course title: ");
             string title = Console.ReadLine();
 
-            Console.WriteLine("Enter course description: ");
+            Console.Write("Enter course description: ");
             string description = Console.ReadLine();
 
-            Console.WriteLine("Enter course price: ");
+            Console.Write("Enter course price: ");
             decimal price = 0;
             while (!decimal.TryParse(Console.ReadLine(), out price) || price <= 0)
             {

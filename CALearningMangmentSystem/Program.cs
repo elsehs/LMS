@@ -60,6 +60,10 @@ namespace CALearningMangementSystem
                         {
                             InstructorDashboard.ShowInstructorDashboard(instructor);
                         }
+                        else if (user is Student student)
+                        {
+                            StudentPortal.ShowStudentPortal(student);
+                        }
 
                     }
                     else if (choice == "4")

@@ -12,9 +12,9 @@ namespace CALearningMangementSystem.Models
             EnrolledCourses = new List<Course>();
         }
         public List<Course> EnrolledCourses { get; set; } 
-        public void EnrollInCourse(Course course)
+        public  void EnrollInCourse(Course course)
         {
-            EnrolledCourses.Add(course);
+           EnrolledCourses.Add(course);
         }
     }
 }
